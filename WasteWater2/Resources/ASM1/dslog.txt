@@ -1,28 +1,35 @@
 Log-file of program ./dymosim
-(generated: Wed Feb 21 15:13:57 2018)
+(generated: Wed Feb 21 16:42:10 2018)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
-... loading "Inf_dry" from "M:/Documents/Modelica/WasteWater/Resources/ASM1/Inf_dry.txt"
 ... "BenchPlant.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
-Integration terminated successfully at T = 15
-   CPU-time for integration      : 9.51 seconds
-   CPU-time for one GRID interval: 19 milli-seconds
-   Number of result points       : 507
+
+... Warning message from dymosim
+At time T = 1.114950e-001 in current integration interval
+T_interval = 0.000000e+000 ... 2.000000e-001
+a large amount of work has been expended
+(about 500 steps) in the integrator. Probably the communciation
+interval is too large or the system is stiff.
+
+Integration terminated successfully at T = 100
+   CPU-time for integration      : 6.9 seconds
+   CPU-time for one GRID interval: 13.8 milli-seconds
+   Number of result points       : 501
    Number of GRID   points       : 501
-   Number of (successful) steps  : 82318
-   Number of F-evaluations       : 489117
-   Number of H-evaluations       : 82841
-   Number of Jacobian-evaluations: 21330
-   Number of (model) time events : 1
+   Number of (successful) steps  : 24879
+   Number of F-evaluations       : 484250
+   Number of H-evaluations       : 25380
+   Number of Jacobian-evaluations: 28784
+   Number of (model) time events : 0
    Number of (U) time events     : 0
-   Number of state    events     : 4
+   Number of state    events     : 0
    Number of step     events     : 0
-   Minimum integration stepsize  : 4.83e-010
-   Maximum integration stepsize  : 0.0122
+   Minimum integration stepsize  : 0.00014
+   Maximum integration stepsize  : 2.1
    Maximum integration order     : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
