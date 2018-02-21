@@ -1,4 +1,4 @@
 # TTK4130
 WasteWater Project
 
-Currently on Task 2a, see issues.
+Currently on stuck on 2a. Use WasteWater2 for assignment 2.
