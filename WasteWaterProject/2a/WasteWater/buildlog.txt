@@ -1,0 +1,10 @@
+ 
+Compiling and linking the model (Visual C++). 
+ 
+ "c:/Program Files (x86)/Dymola 2014 FD01\bin\build.bat" dsmodel         dsmodel0 dsmodel1 dsmodel2 dsmodel3 dsmodel4 dsmodel5 
+ 
+dsmodel.c
+   Creating library dymosim.lib and object dymosim.exp
+ 
+Successful generation of Dymosim. 
+ 

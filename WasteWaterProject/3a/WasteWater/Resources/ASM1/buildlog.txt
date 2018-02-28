@@ -1,0 +1,29 @@
+ 
+Compiling and linking the model (Visual C++). 
+ 
+dsmodel.c
+dsmodel.c(595) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(671) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(680) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(684) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(687) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(691) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(713) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(719) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(724) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(811) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(844) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(913) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(942) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(997) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1073) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1123) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1155) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1242) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1279) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1309) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+dsmodel.c(1354) : warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+   Creating library dymosim.lib and object dymosim.exp
+ 
+Successful generation of Dymosim. 
+ 

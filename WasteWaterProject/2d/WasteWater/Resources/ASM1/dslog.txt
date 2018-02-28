@@ -1,0 +1,28 @@
+Log-file of program ./dymosim
+(generated: Wed Feb 28 13:01:17 2018)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+... loading "Inf_dry" from "C:/27.02.18/2d/WasteWater/Resources/ASM1/Inf_dry.txt"
+... "BenchPlant.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
+Integration terminated successfully at T = 14
+   CPU-time for integration      : 8.88 seconds
+   CPU-time for one GRID interval: 17.8 milli-seconds
+   Number of result points       : 501
+   Number of GRID   points       : 501
+   Number of (successful) steps  : 73942
+   Number of F-evaluations       : 460773
+   Number of H-evaluations       : 74442
+   Number of Jacobian-evaluations: 19255
+   Number of (model) time events : 1
+   Number of (U) time events     : 0
+   Number of state    events     : 0
+   Number of step     events     : 0
+   Minimum integration stepsize  : 5.05e-013
+   Maximum integration stepsize  : 0.00148
+   Maximum integration order     : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)

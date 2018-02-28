@@ -1,0 +1,11 @@
+Log-file of program ./dymosim
+(generated: Wed Feb 28 11:26:08 2018)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+... loading "Inf_dry" from "C:/27.02.18/2c/WasteWater/Resources/ASM1/Inf_dry.txt"
+The following error was detected at time: 0
+
+Model error - division by zero: (nitri2_1.Xp) / (Settler.Xf) = (0) / (0)
+
+Error: Failed to start model.
